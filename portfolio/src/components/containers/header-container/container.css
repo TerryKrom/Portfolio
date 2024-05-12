@@ -1,0 +1,15 @@
+.main-text h2{
+    color: var(--primary-font);
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 4rem;
+}
+.main-text, .icon{
+    flex: 1;
+}
+
+.container{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}

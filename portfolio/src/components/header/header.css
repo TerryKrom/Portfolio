@@ -1,0 +1,30 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.6rem;
+}
+
+.logo h2{
+    color: var(--primary-font);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.logo{
+    margin: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.nav-links a{
+    margin: 40px;
+    text-decoration: none;
+    color: var(--primary-font);
+    font-weight: 500;
+}
