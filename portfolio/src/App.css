@@ -1,0 +1,23 @@
+body {
+    animation: animateBG 12s linear infinite alternate-reverse;
+}
+
+@keyframes animateBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 0.95rem;
+    background-color: #271153;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+    background-color: #472885;
+}

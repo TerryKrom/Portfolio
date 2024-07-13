@@ -6,11 +6,14 @@ import { faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-
 const Header = () => {
     return (
         <header>
-            <div className='d-flex justify-content-between align-items-center w-100 h-100'>
+            <div className='d-flex justify-content-between align-items-center w-100 h-100 inner'>
                 <div className="logo">
                     <h2>
                         <span>&lt;</span>
-                        TerryKrom
+
+                        <div className='logo-lg'>TerryKrom</div>
+                        <div className='logo-sm'>TK</div>
+
                         <span>/</span>
                         <span>&gt;</span>
                     </h2>
