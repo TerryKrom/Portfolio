@@ -1,13 +1,13 @@
 import React from 'react';
 import './projectContainer.css';
+import { Widget } from '../../widget/Widget';
 
 const ProjectContainer = () => {
     return (  
         <>
             <div className="container row">
-                <div className="col">
-                    <h1>Projects</h1>    
-                </div>
+                    <h1 className='text-sm-center'>Projects</h1>
+                    <Widget/>
             </div>
         </>
     );

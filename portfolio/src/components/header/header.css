@@ -16,7 +16,7 @@ header.scroll{
     background-color: #0e081db7;
 }
 
-header>div {
+header > div {
     max-width: 60rem;
     margin: auto;
 }
@@ -34,28 +34,6 @@ header>div {
     margin: 0;
     padding: 0;
 }
-/* 
-@keyframes escrever {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 100%
-    }
-}
-
-@keyframes piscar-cursor {
-
-    from,
-    to {
-        border-color: transparent
-    }
-
-    50% {
-        border-color: #eeeeee;
-    }
-} */
 
 @media only screen and (max-width: 520px) {
     .logo-lg {

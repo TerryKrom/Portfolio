@@ -17,7 +17,6 @@ const Header = () => {
 
         window.addEventListener('scroll', handleScroll);
 
-        // Clean up the event listener
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
@@ -36,13 +35,13 @@ const Header = () => {
                     </h2>
                 </div>
                 <nav className="nav-links">
-                    <a href='#' onClick={(e) => e.preventDefault()}>
+                    <a href='https://www.instagram.com/terrykrom' target='_blank'>
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
-                    <a href='#' onClick={(e) => e.preventDefault()}>
+                    <a href='https://www.github.com/terrykrom' target='_blank'>
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a href='#' onClick={(e) => e.preventDefault()}>
+                    <a href='https://www.linkedin.com/in/guilherme-lopes-avila ' target='_blank'>
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                 </nav>
