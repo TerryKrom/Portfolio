@@ -6,7 +6,7 @@
 
 .widget-card {
   display: flex;
-  padding: 0 10px;
+  padding: 0px 0px 10px 10px;
   width: 100%;
   height: var(--menu-height);
   border-radius: 10px;
@@ -88,7 +88,7 @@
 }
 
 .block {
-  padding: 0 20px;
+  padding: 0px 15px 0px 10px;
   height: var(--menu-height);
 }
 
@@ -104,5 +104,25 @@
 @media only screen and (max-width: 540px){
   .buttons{
     width: 100px;
+    padding: 10px 0 !important;
   }
+}
+
+.col img{
+  filter: none;
+  max-height: 10rem;
+  border-radius: 0%;
+}
+
+.col button{
+  background-color: #6d63ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
