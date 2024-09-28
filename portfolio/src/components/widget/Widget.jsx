@@ -19,6 +19,7 @@ export const Widget = () => {
       <div className="buttons col-lg-6 col-md-4 col-sm-6 col-xs-2 col-2">
         {buttons.map((button, index) => (
           <button
+            key={index}
             className={index === activeBlock ? "active" : ""}
             onClick={() => toggleMenuBlock(index)}
           >
@@ -33,7 +34,7 @@ export const Widget = () => {
         >
           <div className="block row">
             <div className="col">
-              <h2>Forum CPS</h2>
+              <h2 className="">Forum CPS</h2>
               <p>
                 Projeto de TCC desenvolvido para melhorar a comunicação e o aprendizado entre os alunos do Centro Paula Souza, por meio da criação de um fórum interativo. Este espaço digital permite que os estudantes compartilhem experiências, atualizações, notícias e conselhos de forma colaborativa. Além disso, o Fórum CPS facilita uma comunicação mais eficiente entre diretores, professores e alunos, promovendo um acesso mais ágil e direto às informações institucionais.
               </p>
