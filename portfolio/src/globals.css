@@ -23,6 +23,5 @@ body{
   margin: 15rem auto;
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid #fff; */
   max-width: 60rem;
 }

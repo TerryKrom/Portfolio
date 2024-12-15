@@ -11,6 +11,8 @@
     color: #e9e7e7;
     font-weight: 500;
     font-size: 1.2rem;
+    max-width: 30rem;
+    margin: auto;
 }
 
 .container img{
@@ -19,20 +21,16 @@
     filter: drop-shadow(0 0 0.75rem #492299);
 }
 
-.blob{
-    width: 225px;
-    height: 100%;
-    background-color: #814CEB;
-    position: absolute;
-    border-radius: 50%;
-}
-
 .text-sm-center{
     text-align: start !important;
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 920px) {
     .text-sm-center {
       text-align: center !important;
     }
-  }
+    .container img{
+        margin-top: 20px;
+        height: 200px;
+    }
+}
